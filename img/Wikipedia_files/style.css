@@ -1,0 +1,41 @@
+.sidebar
+{
+  float: left;
+  background-color: white;
+  width: 15%;
+
+}
+
+
+.container{
+  margin-left: 25%;
+
+}
+
+.sidebar {
+  margin-left: 0%;
+  float: left;
+}
+.wikinav{
+  margin-left: 25%;
+}
+
+#wikilogo {
+  width: 75%;
+
+}
+
+.inline-tab {
+  margin-left: 25%;
+
+}
+
+.boxtab {
+ border: 1px 1px 1px 0 solid;
+ padding: 12px;
+ background-color: #e3e5e8;
+
+}
+.sidebar-ul {
+  float: left;
+}

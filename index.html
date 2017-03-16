@@ -8,73 +8,136 @@
   </head>
   <body>
     <!--- nav bar-------------------------------------------------------------------------------->
-    <div class="wikinav">
-      <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">Profile</a></li>
-        <li role="presentation"><a href="#">Messages</a></li>
-      </ul>
+  <div class="inline-tab">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <a class="navbar-brand" href="#">Main Page</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Talk<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Read</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">View source</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">View history</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search Wikipedia">
+        </form>
+      </div>
+      </nav>
     </div>
     <!--- side bar -------------------------------------------------------------------------------->
-    <div class="sidebar">
+
+    <div class="sidebar container">
+      <div class="container">
       <div class="well">
+          <img id="wikilogo" src="img/wiki_logo.jpg" alt="Picture of wiki Logo"/>
+
           <ul>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
+            <li>Arts</li>
+            <li>Biography</li>
+            <li>Geography</li>
+          </ul>
+            <ul>
+            <li>History</li>
+            <li>Biography</li>
+            <li>Geography</li>
           </ul>
         </div>
+      </div>
       </div>
 
     <!--1st row------------------------------------------------------------------------------------------>
     <div class="container">
       <div class="well row">
         <div class="col-xs-12">
-          <ul>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-          </ul>
+          <div class="welcomewiki">
+            <h3>Welcome to Wikipedia.</h3>
+            <h6>the free encyclopedia that anyone can edit.</h6>
+            <h6>5,359,558 articles in English</h6>
+          </div>
+          <div class="first-ul">
+            <ul>
+              <li>Arts</li>
+              <li>Biography</li>
+              <li>Geograpy</li>
+            </ul>
+          </div>
+          <div class="first-ul">
+            <ul>
+              <li>History</li>
+              <li>Mathematics</li>
+              <li>Science</li>
+            </ul>
+          </div>
+          <div class="first-ul">
+            <ul>
+              <li>Society</li>
+              <li>Technology</li>
+              <li><strong>All portals</strong></li>
+            </ul>
+          </div>
         </div>
       </div>
       <!--2nd row----------------------------------------------------------------------------------------->
       <div class="row">
-        <div class="panel panel-defult col-md-8">
-          <div class="pannel-heading">
-            <h3 class="pannel-title">orem ipsum dolor sit amet, consectetur adipiscing</h3>
+        <div class="panel panel-defult col-md-8 green-panel">
+          <div class="panel-heading">
+            <h3 class="panel-title dark-green">From today's featured article</h3>
           </div>
           <div class="panel-body">
-            <img src="" alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <img class="pic1" src="img/pic1.jpg" alt="picture of band"/>
+            <p>Powderfinger, an Australian rock band, formed in Brisbane in 1989. From 1992 to 2010 the lineup consisted of vocalist Bernard Fanning, guitarists Darren Middleton and Ian Haug, bass guitarist John Collins and drummer Jon Coghill. The group's third studio album, Internationalist, peaked at No. 1 on the ARIA Albums Chart in September 1998. Their next studio album, Odyssey Number Five, reached number one in September 2000 and was certified eight times platinum, shipping over 560,000 units. Their next three studio albums also reached number one: Vulture Street (July 2003), Dream Days at the Hotel Existence (June 2007) and Golden Rule (November 2009). Powderfinger earned the third-highest total of ARIA Awards (18), after Silverchair and John Farnham. Their last tour, the Sunsets Farewell Tour, concluded on 13 November 2010. In November the following year, the band published a biography with Dino Scatena, a rock music journalist, called Footprints: the inside story of Australia's best loved band. (Full article...)</p>
+            <p class="recent-f">Recently featured: Allah jang Palsoe Hugh de Neville God of War II<p>
+            <p class="recent-f"><span class=blue-bold>Archive By email More featured articles...</span></p>
           </div>
-          <h3 class="pannel-title">orem ipsum dolor sit amet, consectetur adipiscing</h3>
+          <h3 class="panel-title dark-green">Did you know...</h3>
           <div class="panel-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <ul>
+              <li>... that London's Hanover Lodge (pictured) sold for £120 million in 2012, but the underground swimming pool, which converts into a ballroom, is considered "too small"?</li>
+              <li>... that Hans Larwin painted Soldat und Tod in 1917 when he was the official war painter for the Austria-Hungary dual monarchy?</li>
+              <li>... that fossils from the Paleocene period have been found near Saunders Creek, Alberta, including an upper molar from a possible pantodont?</li>
+              <li>... that the voice of Hawaiian soprano Nani Alapai was compared to the music of the singing snails?</li>
+              <li>... that a Taiwanese religious movement teaching feng shui and I Ching since 1984 now has around 300,000 members?</li>
+            </ul>
+            <p class="recent-f"><span class=blue-bold>Recently created articles Start a new article Nominate an article</span></p>
           </div>
         </div>
           <!--2nd row--------------------------------------------------------------------------------------->
-          <div class="panel panel-defult col-md-4">
-            <div class="pannel-heading">
-              <h3 class="pannel-title">orem ipsum dolor sit amet, consectetur adipiscing</h3>
+          <div class="panel panel-defult col-md-4 blue-panel">
+            <div class="panel-heading">
+              <h3 class="panel-title dark-blue">In the news</h3>
             </div>
             <div class="panel-body">
               <img src="" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <ul>
+                <li>Disputes over a Turkish constitutional referendum trigger a diplomatic incident between Turkey and the Netherlands (protesters pictured).</li>
+                <li>South Korea's Constitutional Court removes President Park Geun-hye from office.</li>
+                <li>Donald Tusk is re-elected as President of the European Council despite opposition from his home country, Poland.</li>
+                <li>Physicists announce the first synthesis of time crystals.</li>
+              </ul>
             </div>
-            <h3 class="pannel-title">orem ipsum dolor sit amet, consectetur adipiscing</h3>
+            <h3 class="panel-title dark-blue">On this day...</h3>
             <div class="panel-body">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p class=blue-bold>March 16</p>
+              <ul>
+                <li>597 BC – Babylonian king Nebuchadnezzar II captured Jerusalem and installed Zedekiah as King of Judah.</li>
+                <li>1322 – Despenser War: A royalist army defeated troops loyal to Thomas, 2nd Earl of Lancaster, in the Battle of Boroughbridge, which allowed King Edward II of England to hold on to power for another five years.</li>
+                <li>1872 – In the first-ever final of the FA Cup (trophy pictured), the world's oldest association football competition, Wanderers F.C. defeated Royal Engineers A.F.C. 1–0 at The Oval in Kennington, London.</li>
+              </ul>
             </div>
         </div>
         <!-- 3rd row-------------------------------------------------------------------------------->
         <div class="row">
-          <div class="panel panel-defult col-md-12">
-            <div class="pannel-heading">
-              <h3 class="pannel-title">orem ipsum dolor sit amet, consectetur adipiscing</h3>
+          <div class="panel panel-defult col-md-12 pink-panel">
+            <div class="panel-heading">
+              <h3 class="panel-title dark-pink">orem ipsum dolor sit amet, consectetur adipiscing</h3>
             </div>
             <div class="panel-body">
               <img src="" alt="" />

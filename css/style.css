@@ -6,17 +6,74 @@
 
 }
 
-*{
-  border:1px dashed black;
-}
 .container{
   margin-left: 25%;
 
 }
 
 .sidebar {
+  margin-left: 0%;
   float: left;
 }
 .wikinav{
   margin-left: 25%;
+}
+
+#wikilogo {
+  width: 75%;
+
+}
+
+.inline-tab {
+  margin-left: 25%;
+
+}
+
+.boxtab {
+ border: 1px 1px 1px 0 solid;
+ padding: 12px;
+ background-color: #e3e5e8;
+
+}
+.first-ul {
+  float: right;
+}
+
+.welcomewiki {
+  float: left;
+
+}
+.green-panel {
+  background-color: #e4f2e1;
+}
+.dark-green {
+  background-color: #c4ddbe;
+}
+.pic1 {
+  display: inline;
+  float: left;
+  width: 20%;
+}
+.blue-bold {
+  font-weight: bold;
+  color: blue;
+}
+.recent-f {
+  text-align: right;
+}
+body {
+  font-size: 16px;
+  font-family: serif;
+}
+.dark-blue {
+  background-color: #c2e1e8;
+}
+.blue-panel {
+  background-color: #e6f0f2;
+}
+.pink-panel {
+  background-color: #e8daed;
+}
+.dark-pink {
+  background-color: #e7c9f2;
 }
