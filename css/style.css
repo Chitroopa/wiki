@@ -8,8 +8,15 @@
 
 *{
   border:1px dashed black;
-
 }
 .container{
-  float: right;
+  margin-left: 25%;
+
+}
+
+.sidebar {
+  float: left;
+}
+.wikinav{
+  margin-left: 25%;
 }
