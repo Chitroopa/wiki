@@ -1,0 +1,15 @@
+.sidebar
+{
+  float: left;
+  background-color: white;
+  width: 15%;
+
+}
+
+*{
+  border:1px dashed black;
+
+}
+.container{
+  float: right;
+}
